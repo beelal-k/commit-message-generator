@@ -1,0 +1,75 @@
+body{
+    height: 350px;
+    width: 350px;
+    background-color: rgb(66, 66, 134);
+    color: #fdfcfa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#hello{
+    background-color: rgb(57, 57, 112);
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px 0px rgb(48, 48, 94);
+    color: rgb(206, 206, 255);
+    font-size: 17px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    
+}
+
+#subtitle{
+    font-size: 16px;
+    text-align: center;
+}
+
+#title{
+    padding-top: 3%;
+    text-align: center;
+    color: rgb(221, 221, 255);
+    /* font-size: 27px; */
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.btns{
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#generateBtn{
+    background-color: rgb(97, 97, 175);
+    color: rgb(233, 233, 255);
+}
+
+#generateBtn:hover{
+    background-color: rgb(88, 88, 170);
+}
+
+#commitBtn{
+    background-color: rgb(221, 221, 255);
+    color: rgb(48, 48, 94);
+}
+
+#commitBtn:hover{
+    background-color: rgb(204, 204, 250);
+}
+
+.footer{
+    color: rgb(175, 175, 253);
+    text-align: center;
+}
